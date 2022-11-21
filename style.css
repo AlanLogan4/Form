@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+form{
+    
+    align-items: center;
+}
+
+div{
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
