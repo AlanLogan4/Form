@@ -2,6 +2,7 @@ var buttonThing = document.getElementById("button");
 
 
 
+var time = document.getElementById("time");
 
 var submit = document.getElementById("submit");
 submit = Submit();
@@ -9,11 +10,13 @@ submit = Submit();
 function Submit(){
     if(submit.click){
         
+        
     }else{
         
     }
     
 }
+
 
 
 
@@ -30,3 +33,5 @@ function stylisticChanges(){
     var textbox = document.getElementById("something");
    
 }
+
+
