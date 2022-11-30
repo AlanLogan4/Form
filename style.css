@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    border: 2px solid;
     box-sizing: border-box;
     font-size: 30px;
 }
@@ -21,5 +20,26 @@ div{
     display: block;
     margin-top: 100px;
     margin-bottom: 3px;
+    border: 2px solid;
 
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    border: 2px solid;
+}
+
+.title1{
+    border: 2px  solid;
+}
+
+.title2{
+    border: 2px solid;
+}
+
+img{
+    display: flex;
+    width: 100%;
+    height: auto;
 }

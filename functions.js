@@ -2,18 +2,21 @@ var buttonThing = document.getElementById("button");
 
 
 
-var time = document.getElementById("time");
 
-var submit = document.getElementById("submit");
-submit = Submit();
+
+
 
 function Submit(){
-    if(submit.click){
-        
-        
-    }else{
-        
+    var time = document.getElementById("time").value;
+    if(document.getElementById("no").checked){
+        window.alert("Alan sad :,(")
+    } if(document.getElementById("time").value){
+        window.alert("See you on: " + time)
     }
+    else{
+
+    }
+    
     
 }
 
